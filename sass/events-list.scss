@@ -1,0 +1,19 @@
+.events-list {
+    width: 90%;
+    margin: 0 auto;
+    .large-post {
+        max-width: 40%;
+        height: 400px;
+        display: flex;
+        .post-image {
+            flex-basis: 50%;
+            img {
+                width: 100%;
+                height: 100%
+            }
+        }
+        .event-info {
+            flex-basis: 50%;
+        }
+    }
+}
