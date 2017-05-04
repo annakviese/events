@@ -78,6 +78,15 @@ header h2 {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
 
+.event-info .event-info-wrapper {
+  padding: 20px; }
+  .event-info .event-info-wrapper a {
+    text-decoration: none;
+    color: #0B6048;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold; }
+
 html {
   height: 100%;
   box-sizing: border-box; }

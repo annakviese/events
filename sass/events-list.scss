@@ -17,3 +17,19 @@
         }
     }
 }
+
+//event info styles 
+.event-info {
+    .event-info-wrapper {
+        padding: 20px;
+        a {
+            text-decoration: none;
+            color: $green;
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+
+
+}
