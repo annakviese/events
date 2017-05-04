@@ -31,7 +31,7 @@ gulp.task('js', function(){
 // SASS
 
 gulp.task('sass', function() {
-   gulp.src('./sass/styles.scss')
+   gulp.src('./sass/style.scss')
       .pipe(plumber(plumberErrorHandler))
       .pipe(sass())
       .pipe(autoprefixer({
@@ -39,7 +39,7 @@ gulp.task('sass', function() {
       }))
       .pipe(gulp.dest('./build/css'))
       .pipe(cssnano())
-      .pipe(rename('styles.min.css'))
+      .pipe(rename('style.min.css'))
       .pipe(gulp.dest('./build/css'));
 });
 
