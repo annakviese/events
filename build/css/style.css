@@ -129,6 +129,8 @@ header h2 {
       .event-info .event-info-wrapper .event-time p.date {
         text-transform: uppercase;
         font-weight: bold; }
+  .event-info h2#small-image.event-title {
+    padding: 20px 0px 20px 0px; }
 
 html {
   height: 100%;
