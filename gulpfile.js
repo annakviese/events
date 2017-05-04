@@ -39,7 +39,7 @@ gulp.task('sass', function() {
       }))
       .pipe(gulp.dest('./build/css'))
       .pipe(cssnano())
-      .pipe(rename('style.min.css'))
+      .pipe(rename('styles.min.css'))
       .pipe(gulp.dest('./build/css'));
 });
 
