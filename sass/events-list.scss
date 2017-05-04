@@ -20,6 +20,7 @@
 
 //event info styles 
 .event-info {
+    position: relative;
     .event-info-wrapper {
         padding: 20px;
         a {
@@ -38,6 +39,14 @@
         p {
             font-size: 0.9rem;
             line-height: 1.3;
+        }
+        .event-time {
+            position: absolute;
+            bottom: 10px;
+            p.date {
+                text-transform: uppercase;
+                font-weight: bold;
+            }
         }
     }
 
