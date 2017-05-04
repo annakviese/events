@@ -85,10 +85,9 @@ header h2 {
     color: #0B6048;
     font-size: 1rem;
     text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 10%; }
+    font-weight: 600; }
   .event-info .event-info-wrapper h2 {
-    padding-top: 20%;
+    padding: 40px 0px 20px 0px;
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 1.3; }
