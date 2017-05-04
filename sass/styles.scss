@@ -1,0 +1,24 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import "variables";
+@import "mixins";
+
+// CSS included in style.css.
+
+
+
+// General styles
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.site-title {
+    display: none;
+}
