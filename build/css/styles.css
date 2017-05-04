@@ -57,7 +57,8 @@ header h2 {
   font-weight: bold;
   color: #0B6048;
   border-top: 5px solid #FFD03A;
-  letter-spacing: 0.2em; }
+  letter-spacing: 0.2em;
+  margin: 0 auto; }
 
 html {
   height: 100%;
