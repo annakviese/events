@@ -1,0 +1,21 @@
+@mixin tablet {
+ @media (min-width: 650px) {
+   @content;
+ }
+}
+@mixin desktop {
+  @media (min-width: 1240px) {
+    @content;
+  }
+}
+
+@mixin post-mobile {
+    min-width: 370px;
+    height: auto;
+    flex-wrap: wrap; 
+    -webkit-flex-wrap: wrap;
+    margin-top: 20px;
+    max-width: 50%;
+    background-color: white;
+    border: 1px solid $border-color;
+}

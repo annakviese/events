@@ -35,7 +35,7 @@ gulp.task('sass', function() {
       .pipe(plumber(plumberErrorHandler))
       .pipe(sass())
       .pipe(autoprefixer({
-         browsers: ['last 2 versions']
+         browsers: ['last 3 versions']
       }))
       .pipe(gulp.dest('./build/css'))
       .pipe(cssnano())

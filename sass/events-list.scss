@@ -1,21 +1,35 @@
 .events-list {
     width: 90%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: flex; 
+    display: -webkit-flex;
+    flex-wrap: wrap; 
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+    @include tablet {
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+    }
     .large-post {
-        margin-top: 20px;
-        max-width: 50%;
-        height: 420px;
-        display: flex;
-        background-color: white;
-        border: 1px solid $border-color;
+        @include post-mobile;
+        @include tablet { 
+            min-width: 470px;
+            height: 420px;
+            display: -webkit-flex;
+            display: flex; 
+            flex-wrap: nowrap; 
+            -webkit-flex-wrap: nowrap;
+        }
         .post-image {
-            flex-basis: 50%;
+            flex-basis: 100%;
+            @include tablet {
+                flex-basis: 50%;
+            }
             img {
                 width: 100%;
-                height: 100%
+                height: 100%;
+                height: 419px;
             }
         }
         .event-info {
@@ -23,22 +37,29 @@
         }
     }
     .small-post {
-        margin-top: 20px;
-        max-width: 24%;
-        height: 420px;
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        border: 1px solid $border-color;
+        @include post-mobile;
         .post-image {
-            flex-basis: 100%;
-            img {
-                width: 100%;
-                height: 100%
+                flex-basis: 100%;
+                img {
+                    width: 100%;
+                    height: 100%
+                }
             }
-        }
-        .event-info {
-            flex-basis: 100%;
+            .event-info {
+                flex-basis: 100%;
+            }
+        @include tablet {
+            margin-top: 20px;
+            max-width: 24%;
+            min-width: 250px;
+            height: 420px;
+            display: -webkit-flex;
+            display: flex; 
+            flex-direction: column; 
+            -webkit-flex-direction: column;
+            background-color: white;
+            border: 1px solid $border-color;
+            
         }
     }
 }
@@ -66,8 +87,11 @@
             line-height: 1.3;
         }
         .event-time {
-            position: absolute;
-            bottom: 10px;
+            padding-top: 10px;
+            @include tablet {
+                position: absolute;
+                bottom: 10px;
+            }
             p.date {
                 text-transform: uppercase;
                 font-weight: bold;
@@ -81,7 +105,8 @@
 
 .button {
     width: auto;
-    display: flex;
+    display: flex; 
+    display: -webkit-flex;
     justify-content: center;
     #loadMore {
         background-color: $yellow;
