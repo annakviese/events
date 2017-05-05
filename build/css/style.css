@@ -71,6 +71,7 @@ header h2 {
   -ms-flex-pack: justify;
       justify-content: space-between; }
   .events-list .large-post {
+    margin-top: 20px;
     max-width: 50%;
     height: 420px;
     display: -ms-flexbox;
@@ -87,6 +88,7 @@ header h2 {
       -ms-flex-preferred-size: 60%;
           flex-basis: 60%; }
   .events-list .small-post {
+    margin-top: 20px;
     max-width: 24%;
     height: 420px;
     display: -ms-flexbox;
@@ -131,6 +133,19 @@ header h2 {
         font-weight: bold; }
   .event-info h2#small-image.event-title {
     padding: 20px 0px 20px 0px; }
+
+.button {
+  width: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .button #loadMore {
+    background-color: #FFD03A;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 0.9rem; }
 
 html {
   height: 100%;

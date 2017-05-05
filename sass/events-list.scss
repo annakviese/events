@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     .large-post {
+        margin-top: 20px;
         max-width: 50%;
         height: 420px;
         display: flex;
@@ -22,6 +23,7 @@
         }
     }
     .small-post {
+        margin-top: 20px;
         max-width: 24%;
         height: 420px;
         display: flex;
@@ -75,6 +77,18 @@
     h2#small-image.event-title {
         padding: 20px 0px 20px 0px;
     }
-
-
 }
+
+.button {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    #loadMore {
+        background-color: $yellow;
+        color: black;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+}
+
