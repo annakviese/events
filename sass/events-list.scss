@@ -29,11 +29,16 @@
             img {
                 width: 100%;
                 height: 100%;
-                height: 419px;
+                @include tablet {
+                    height: 419px;
+                }
             }
         }
         .event-info {
-            flex-basis: 60%;
+            flex-basis: 100%;
+            @include tablet {
+                flex-basis: 60%;
+            }
         }
     }
     .small-post {
@@ -119,5 +124,5 @@
 }
 
 .large-post.post, .small-post.post {
-    display: none;
+     display: none;
 }

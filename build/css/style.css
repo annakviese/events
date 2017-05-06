@@ -106,11 +106,17 @@ header h2 {
               flex-basis: 50%; } }
       .events-list .large-post .post-image img {
         width: 100%;
-        height: 100%;
-        height: 419px; }
+        height: 100%; }
+        @media (min-width: 650px) {
+          .events-list .large-post .post-image img {
+            height: 419px; } }
     .events-list .large-post .event-info {
-      -ms-flex-preferred-size: 60%;
-          flex-basis: 60%; }
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%; }
+      @media (min-width: 650px) {
+        .events-list .large-post .event-info {
+          -ms-flex-preferred-size: 60%;
+              flex-basis: 60%; } }
   .events-list .small-post {
     min-width: 370px;
     height: auto;
