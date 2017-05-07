@@ -1,9 +1,5 @@
 $(function () {
-    $(window).on("resize", function (e) {
-        checkScreenSize();
-    });
     $('.large-post.post, .small-post.post').slice(0, 3).css('display','flex');
-    // $('.large-post.post, .small-post.post').slice(0, 3).show();
     $("#loadMore").on('click', function (e) {
         e.preventDefault();
 

@@ -90,7 +90,7 @@ header h2 {
     border: 1px solid #F1EFE9; }
     @media (min-width: 650px) {
       .events-list .large-post {
-        min-width: 470px;
+        width: 48%;
         height: 420px;
         display: -ms-flexbox;
         display: flex;
@@ -139,7 +139,7 @@ header h2 {
     @media (min-width: 650px) {
       .events-list .small-post {
         margin-top: 20px;
-        max-width: 24%;
+        width: 24%;
         min-width: 250px;
         height: 420px;
         display: -ms-flexbox;
