@@ -1,4 +1,4 @@
-## Aloha Website Part1
+## Events Loader 
 ![Alt text](https://github.com/annakviese/events/blob/master/documentation/images/events-screenshot.png)
 
 #### About
