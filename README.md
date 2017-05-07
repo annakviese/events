@@ -16,3 +16,4 @@ This page is responsive and has been tested on latest versions of Chrome, Safari
 
 * Get the content via external file (Ajax requests)
 * Work on the tablet layout 
+* Optimize load speed 
