@@ -139,7 +139,7 @@ header h2 {
     @media (min-width: 650px) {
       .events-list .small-post {
         margin-top: 20px;
-        width: 24%;
+        width: 48%;
         min-width: 250px;
         height: 420px;
         display: -ms-flexbox;
@@ -148,6 +148,9 @@ header h2 {
             flex-direction: column;
         background-color: white;
         border: 1px solid #F1EFE9; } }
+    @media (min-width: 1024px) {
+      .events-list .small-post {
+        width: 24%; } }
 
 .event-info {
   position: relative; }
