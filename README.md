@@ -1,6 +1,11 @@
 ## Events Loader 
 ![Alt text](https://github.com/annakviese/events/blob/master/documentation/images/events-screenshot.png)
 
+#### How to run
+* Download the repository
+* Open folder in your Terminal and run npm install 
+* Run gulp
+
 #### About
 This is the Events Loader. 
 The purpose of this assignment was to recreate a design that loads more posts on click of a button. 
