@@ -208,7 +208,7 @@ header h2 {
   -ms-flex-pack: center;
       justify-content: center;
   margin-top: 20px; }
-  .button #loadMore {
+  .button a {
     background-color: #FFD03A;
     color: black;
     padding: 10px 20px;
