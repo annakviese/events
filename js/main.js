@@ -13,10 +13,3 @@ $(function () {
         }, 1500);
     });
 });
-
-
-
-    // checkScreenSize();
-    // function checkScreenSize(){
-    //     var newWindowWidth = $(window).width()
-    //     if (newWindowWidth < 600) {

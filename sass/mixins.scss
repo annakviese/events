@@ -9,6 +9,7 @@
   }
 }
 
+//mixin for all posts on mobile 
 @mixin post-mobile {
     min-width: 370px;
     height: auto;
@@ -20,6 +21,7 @@
     border: 1px solid $border-color;
 }
 
+//all background size styles (general)
 @mixin background-size {
     flex-basis: 100%;
     background-size: cover;
